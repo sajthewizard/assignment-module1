@@ -99,3 +99,33 @@ body {
     font-weight: 400;
     margin-bottom: 20px;
 }
+
+#gittu {
+    display: flex;
+    margin-left: 35;
+}
+
+.pic-one {
+    font-size: 45px;
+    margin-left: 100px;
+    background-color: rgb(110, 217, 217);
+    padding: 10px 10px;
+    margin-right: 25px;
+}
+
+.pic-two {
+    font-size: 45px;
+    background-color: rgb(109, 201, 114);
+    padding: 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.pic-three {
+    font-size: 45px;
+    background-color: rgb(218, 151, 133);
+    padding: 10px 10px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
