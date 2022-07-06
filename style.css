@@ -3,14 +3,13 @@ body {
 }
 
 .first {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(images/donation3.jpg);
+    background-image: url(images/donation6.jpg);
     background-repeat: no-repeat;
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+
 }
 
 .head {
@@ -43,4 +42,60 @@ body {
     padding: 20px 20px;
     border-radius: 10px;
     font-weight: 900;
+}
+
+.Donate-option {
+    display: flex;
+}
+
+.blue {
+    font-size: 100px;
+    color: rgb(10, 10, 10);
+    margin-left: 1000px;
+    font-weight: bold;
+    text-shadow: rgb(223, 220, 220);
+}
+
+.green {
+    margin-left: 850px;
+    margin-right: 10%;
+    color: rgb(7, 6, 6);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgb(221, 217, 217);
+
+}
+
+.link-two {
+    text-align: center;
+    margin-left: 60%;
+    color: white;
+    background-color: rgb(218, 90, 67);
+    text-decoration: none;
+    font-size: 40px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.box {
+    display: flex;
+}
+
+.options {
+    font-size: 40px;
+    margin: 10%;
+    background-color: rgb(241, 240, 238);
+    padding: 30px 30px;
+}
+
+#taka {
+    text-align: center;
+    margin-left: 35%;
+    color: gray;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
