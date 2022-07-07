@@ -108,14 +108,23 @@ body {
 .pic-one {
     font-size: 45px;
     margin-left: 100px;
-    background-color: rgb(110, 217, 217);
+    background-color: rgba(82, 180, 180, 0.372);
     padding: 10px 10px;
     margin-right: 25px;
+
+}
+
+#options {
+    border: 10px solid rgb(230, 146, 131);
+    font-size: 40px;
+    margin: 10%;
+    background-color: rgb(241, 240, 238);
+    padding: 30px 30px;
 }
 
 .pic-two {
     font-size: 45px;
-    background-color: rgb(109, 201, 114);
+    background-color: rgba(109, 201, 114, 0.358);
     padding: 10px 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -124,7 +133,7 @@ body {
 
 .pic-three {
     font-size: 45px;
-    background-color: rgb(218, 151, 133);
+    background-color: rgba(218, 151, 133, 0.329);
     padding: 10px 10px;
     margin-right: 100px;
     margin-left: 20px;
@@ -132,7 +141,8 @@ body {
 
 .For-bonus {
     display: flex;
-    width: 50%
+    width: 65%;
+
 }
 
 .words {
@@ -145,8 +155,8 @@ body {
 }
 
 .flood {
-    margin-top: 20%;
-    margin-left: 80%;
+    margin-top: 10%;
+    margin-left: 50%;
     padding: 20% 20%;
 }
 
@@ -161,4 +171,60 @@ body {
     border-radius: 10px;
     font-weight: 900;
     margin-top: 15px;
+}
+
+.flood-words {
+    margin-left: 30%;
+    font-size: 30px;
+    margin-top: 20%;
+}
+
+.flood-img {
+
+    margin-left: 8%;
+    margin-top: 55%;
+
+
+}
+
+.end-game {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 30px;
+
+
+}
+
+.ciao {
+    background-color: rgba(222, 184, 135, 0.226);
+    font: 50px;
+    height: 50px;
+    width: 50px;
+    padding: 3% 3%;
+    margin-left: 1000px;
+
+
+}
+
+span {
+    text-align: center;
+    color: white;
+    background-color: rgb(218, 90, 67);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 9px 9px;
+    border-radius: 8px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.end {
+    margin-top: 15%;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(231, 13, 13);
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
 }
