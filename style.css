@@ -14,12 +14,12 @@ body {
 
 .head {
     font-size: 100px;
-    color: rgb(210, 203, 203);
+    color: rgb(255, 255, 255);
     margin-left: 15%;
     margin-top: 15%;
     text-align: center;
-    font-weight: bold;
-    text-shadow: black;
+    font-weight: bolder;
+
 }
 
 .body {
@@ -65,6 +65,16 @@ body {
     font-weight: bold;
     text-shadow: rgb(221, 217, 217);
 
+}
+
+.green-one {
+    margin-left: 500px;
+    margin-right: 10%;
+    color: rgb(7, 6, 6);
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: rgb(221, 217, 217);
 }
 
 .link-two {
@@ -223,8 +233,9 @@ span {
     margin-top: 15%;
     font-size: 30px;
     background-color: rgb(0, 0, 0);
-    color: rgb(231, 13, 13);
+    color: rgb(221, 212, 212);
+    font-weight: 700;
     width: 100%;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
 }
